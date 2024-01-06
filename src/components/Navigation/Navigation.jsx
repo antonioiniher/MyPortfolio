@@ -18,7 +18,7 @@ export default function Navigation() {
       const rect = section.getBoundingClientRect()
       const offset = rect.top + window.scrollY
       const mobileOffset = rect.top + window.scrollY - 180
-      if (window.innerWidth < 768) {
+      if (window.innerWidth < 640) {
         window.scrollTo({
           top: mobileOffset,
           behavior: 'auto'
