@@ -1,6 +1,7 @@
 import ProjectCard from '../ProjectCard/ProjectCard'
 import marvel from '../../assets/Marvel.png'
 import code from '../../assets/Code.png'
+import flappy from '../../assets/flappy-bird.jpg'
 
 const projects = [
   {
@@ -18,6 +19,14 @@ const projects = [
       '"Code Connect" es un proyecto en desarrollo, surgido de un bootcamp, que utiliza Javascript, React, Express y MongoDB. Se enfoca en la búsqueda y oferta de clases de programación y ha sido seleccionado para el evento Hackshow.',
     techStack: 'NodeJS, React, Express, MongoDB',
     link: 'https://code-connectt.netlify.app/'
+  },
+  {
+    image: flappy,
+    title: 'Flappy bird',
+    description:
+      'Es un juego basado en "Flappy Bird" hecha con HTML y JavaScript. El jugador controla un pájaro que debe volar entre tubos sin chocar. Se trata de mantener al pájaro en el aire y evitar obstáculos. El objetivo es obtener la mayor puntuación posible.',
+    techStack: 'HTML, Javascript',
+    link: 'https://antonioiniher.github.io/flappy-bird/'
   }
 ]
 
